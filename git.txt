@@ -1,0 +1,50 @@
+GIT is LOCAL
+GITHUB is ONLINE 
+
+//   CONFIGURATION
+
+git --version
+git config --global user.name "Username"
+git config --global user.email "email"
+git --list
+
+
+//  FROM GITHUB TO GIT
+// File status
+U Untracked       M Modified          Staged            Unmodified
+
+git status
+git clone <--rep address--> (https://github.com/shoukatalipec/git)
+//  git add <--File Name-->   Add one file
+git add .                 Add all files
+git commit -m "message/comments"
+git push origin main
+
+
+GIT COMMANDS (To Add git in the local File/Project) FOR LOCAL
+git init      to add git in a project
+git remote add origin <--Link-->
+git remote -v
+git branch
+git branch -M main
+//  git add .
+//  git commit -m "message/comments"
+//  git push origin main
+//  git push origin <--branch name-->
+git push -u origin main   // first push
+git push                  // subsequent push
+
+
+//  WORK FLOW Local git
+create github repo --> clone -->  changes --> add   --> commit  --> push
+
+
+//  GIT Branches
+git branch
+git branch -M main                      //  to rename the branch
+git checkout <--branch name-->          //  to move between branches
+git branch -b <--new branch name-->     //  to create new branch
+git branch -d <--branch name-->         //  to delete a branch
+
+git diff <--branch name-->              //  compare current branch with other
+git merge <--branch name-->             //  to merge currect branch with other
